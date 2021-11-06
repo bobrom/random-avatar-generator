@@ -1,6 +1,6 @@
 {
-  "name": "@fractalsoftware/random-avatar-generator",
-  "version": "1.0.7",
+  "name": "@bobrom/random-avatar-generator",
+  "version": "1.0.8",
   "description": "A random avatar generator with low collision",
   "module": "./src/index.js",
   "types": "./src/index.d.ts",
@@ -44,5 +44,8 @@
   },
   "directories": {
     "example": "example"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
   }
 }
